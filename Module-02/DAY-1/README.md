@@ -21,22 +21,34 @@ To create a java program for calculate cube of a number using static method.
  ```
 /*
 Program to implement a Static method using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Janani G
+Register Number: 212224100022
+import java.util.*;
+
+class Main {
+    
+    static int cubecal(int n) {
+        return n * n * n;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        int result = cubecal(n);
+
+        System.out.println("Cube is: " + result);
+    }
+} 
 */
 ```
 
 ## Sourcecode.java:
 
 
-
-
-
-
-
 ## OUTPUT:
-
-
+<img width="1510" height="1068" alt="image" src="https://github.com/user-attachments/assets/55dc24ad-0621-43cc-8b22-1ed005fe2c2a" />
 
 ## RESULT:
 Thus the java program for calculate cube of a number using static method has been executed successfully.
